@@ -1,4 +1,4 @@
-
+function hesabla(){
  var n=(prompt("Tarixi daxil edin"))
 
  var date=new Date();
@@ -20,6 +20,8 @@ if(diff<3600000){
 } else if(diff>3600000*24*7){
     console.log(n);
 }
+}
+hesabla();
     
 
 
